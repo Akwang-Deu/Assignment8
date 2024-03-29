@@ -1,0 +1,242 @@
+#body{
+    border: 1px solid white;
+    margin: 10%;
+
+}
+#center{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#logo{
+    height: 50px;
+    width: 200px;
+}
+navbar{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    background-color: rgb(39,35,32);
+    color: white;
+  
+
+      
+}
+#words{
+    text-align: center;
+}
+.chairicon{
+    height: 20px;
+    width: 20px;
+}
+.houseicon{
+    height: 20px;
+    width: 20px;
+
+}
+.paymenticon{
+    height: 20px;
+    width: 20px;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+    
+}
+span{
+    color:rgb(88, 26, 26) ;
+}
+.brownchair{
+    height: 350px;
+    width:300px ;
+    object-fit: cover;
+}
+.whitechair{
+    height: 350px;
+    width: 300px;
+}
+.mirror{
+    height:350px ;
+    width: 300px;
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    
+}
+.orangecouch{
+    height: 100px;
+    width: 200px;
+}
+.brown{
+    height: 500px;
+    width: 400px;
+    
+}
+#container3{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.bed{
+    height: 500px;
+    width: 400px;
+}
+.bed2{
+    height: 100px;
+    width: 200px;
+}
+#container4{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.dinning{
+    height: 100px;
+    width: 200px;
+}
+.dinning2{
+    height:500px ;
+    width: 400px;
+}
+#basket{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.words{
+    text-align: center;
+}
+#words2{
+    display: flex;
+   justify-content: center;
+   gap: 5%;
+   background-color: white;
+   border: 1px solid white;
+    border-collapse: collapse;
+    
+   
+}
+.roomdesign{
+    height:650px ;
+    width: 400px;
+}
+.livingroomphoto{
+    height: 200px;
+    width:200px ;
+}
+.photoroom{
+    height: 200px;
+    width: 200px;
+
+}
+.laptopphoto{
+    height: 200px;
+    width: 200px;
+
+}
+#innercontainer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+#tin{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-color: rgb(39,35,32);
+    color: white;
+
+}
+#furniture{
+    text-align: center;
+}
+#word{
+    text-align: center;
+}
+#Browse{
+    text-align: center;
+}
+.house{
+    height: 700px;
+    width: 100%;
+}
+button{
+    padding: 14px 35px;
+    background-color: rgb(177,112,48);
+}
+#testimo{
+    border: 1px solid white;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(213,194,177);
+
+}
+input{
+    padding: 12px 35px;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .house{
+        height: 300px;
+        width: 100%;
+        justify-content: center;
+    }
+    .text{
+      font-size: 50%;
+    }    
+    button{
+        padding: 4px 10px;
+    }
+    #container{
+        display: wrap;
+        
+    }
+    #container2{
+        display: gid;
+        flex-wrap: wrap;
+       
+    }
+    footer{
+        display: grid;
+       
+    }
+    input{
+        padding: 5px 10px;
+    }
+    #innercontainer{
+        display: grid;
+        justify-content: center;
+    }
+    #container3{
+        display: grid;
+        justify-content: center;
+    }
+    #container4{
+        display: grid;
+        justify-content: center;
+    
+    }
+    #basket{
+        display: grid;
+        justify-content: center;
+    }
+    #words2{
+        display: grid;
+       justify-content: center;
+    
+    }
+
+}
